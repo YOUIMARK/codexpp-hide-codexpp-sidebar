@@ -1,0 +1,50 @@
+{
+  "id": "hide-codexpp-sidebar",
+  "name": "隐藏 Codex++ 侧栏按钮",
+  "version": "1.1.1",
+  "description": "隐藏 Codex++ 在 Codex 左侧导航栏添加的入口，不影响 Codex 原生按钮。",
+  "engines": {
+    "codexpp": 1
+  },
+  "renderer": [
+    "main.js"
+  ],
+  "config": {
+    "main": {
+      "type": "boolean",
+      "title": "隐藏 Codex++ 主页入口",
+      "default": true
+    },
+    "extensions": {
+      "type": "boolean",
+      "title": "隐藏拓展页入口",
+      "default": true
+    },
+    "recommendations": {
+      "type": "boolean",
+      "title": "隐藏推荐内容页入口",
+      "default": true
+    },
+    "provider": {
+      "type": "boolean",
+      "title": "隐藏供应商入口",
+      "default": true
+    },
+    "remote": {
+      "type": "boolean",
+      "title": "隐藏远程控制入口",
+      "default": true
+    },
+    "weixin": {
+      "type": "boolean",
+      "title": "隐藏微信连接入口",
+      "default": true
+    },
+    "tasks": {
+      "type": "boolean",
+      "title": "隐藏任务面板入口",
+      "default": true
+    }
+  },
+  "repository": "YOUIMARK/codexpp-hide-codexpp-sidebar"
+}
